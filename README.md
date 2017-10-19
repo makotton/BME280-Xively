@@ -1,6 +1,6 @@
 # BME280-Xively
 
-BME280 on Raspberry Pi by I2C. Send the acquired data Xively. Mail is sent when Raspberry Pi boots, and when Process is restarted.
+BME280 on Raspberry Pi by I2C. Send the acquired data Xively. Mail is sent when Raspberry Pi boots, and when Process is restarted. Write "sudo sh monitoring.sh &" in /etc/rc.local file.
 
 * BME280 is environmental(Temperature / humidity / pressure) sensor module by Bosch Sensortec.
 * Xively is IoT platform.
